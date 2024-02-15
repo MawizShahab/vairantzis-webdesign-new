@@ -952,6 +952,58 @@ footer.footer-container-wrapper {
   }
 }
 
+@media screen and (min-width: 521px) and (max-width: 991px) {
+  .header-content-container {
+    gap: 25px !important;
+    padding-top: 0px !important;
+  }
+  .header-searchbox {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .header-container {
+    background-position: top;
+    background-size: contain;
+    min-height: 900px;
+  }
+  .header-content-container {
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .header-title p {
+    font-size: 42px;
+    line-height: 35px;
+  }
+
+  .header-subtitle p {
+    line-height: 15px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+  .header-container {
+    background-position: top;
+    background-size: contain;
+    min-height: 1000px;
+  }
+  .header-content-container {
+    gap: 20px;
+    padding-top: 50px;
+  }
+
+  .header-title p {
+    font-size: 42px;
+    line-height: 35px;
+  }
+
+  .header-subtitle p {
+    line-height: 15px;
+  }
+}
+
 /* Mobile Design */
 
 @media screen and (max-width: 520px) {
@@ -1070,15 +1122,6 @@ footer.footer-container-wrapper {
   footer.footer-container-wrapper {
     padding: 150px 20px 70px 20px;
   }
-
-  /* .additional-content .content p {
-    width: 185px !important;
-  } */
-
-  /* .content.one {
-    top: 10px;
-    left: -15px;
-  } */
 
   .additional-content .content p {
     font-size: 10px;
