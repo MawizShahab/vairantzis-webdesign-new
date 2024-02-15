@@ -959,7 +959,7 @@ footer.footer-container-wrapper {
     background-image: url("./images/hero-bg-mobile.png");
     background-size: contain;
     background-position: top;
-    min-height: 480px;
+    min-height: 460px;
   }
 
   .header-searchbox {
@@ -998,7 +998,7 @@ footer.footer-container-wrapper {
     white-space: nowrap;
   }
   .help-container-wrapper {
-    background-size: contain !important;
+    background-size: 100% 100% !important;
     background-position: top;
   }
 
