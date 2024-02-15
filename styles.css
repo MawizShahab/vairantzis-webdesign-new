@@ -963,17 +963,23 @@ footer.footer-container-wrapper {
     padding: 10px;
   }
 
+  nav.extended-nav {
+    padding: 15px;
+  }
+
   .registration-link {
     padding: 15px 25px;
   }
 
   .header-title p {
     font-size: 15px;
+    line-height: 30px;
   }
 
   .header-subtitle p {
     font-size: 11px;
     width: 250px;
+    line-height: 18px;
   }
 
   .header-content-container {
