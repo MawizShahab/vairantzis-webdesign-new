@@ -758,6 +758,7 @@ footer.footer-container-wrapper {
 
   .header-content-container {
     padding: 0 20px 0 20px;
+    gap: 15px;
   }
 
   .header-content {
@@ -777,13 +778,14 @@ footer.footer-container-wrapper {
 
   .header-title p {
     font-size: 20px;
+    line-height: 28px;
   }
 
   .header-subtitle p {
     font-size: 13px;
     width: 362px;
     text-align: center;
-    line-height: 22px;
+    line-height: 18px;
   }
 
   .header-searchbox {
@@ -957,7 +959,7 @@ footer.footer-container-wrapper {
     background-image: url("./images/hero-bg-mobile.png");
     background-size: contain;
     background-position: top;
-    /* min-height: 1200px; */
+    min-height: 480px;
   }
 
   .header-searchbox {
@@ -996,7 +998,8 @@ footer.footer-container-wrapper {
     white-space: nowrap;
   }
   .help-container-wrapper {
-    background-size: 100% 100% !important;
+    background-size: contain !important;
+    background-position: top;
   }
 
   .comment {
@@ -1009,6 +1012,10 @@ footer.footer-container-wrapper {
 
   .comment p {
     font-size: 13px;
+  }
+
+  .help {
+    padding: 25px 32px 50px 25px;
   }
 
   .help .answer p,
