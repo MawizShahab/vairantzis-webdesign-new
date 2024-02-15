@@ -736,6 +736,8 @@ footer.footer-container-wrapper {
     width: 100%;
     top: 0;
     z-index: 9999;
+    background-size: 100% 100% !important;
+    background-position: center !important;
   }
 
   .categories-container.show {
@@ -751,7 +753,7 @@ footer.footer-container-wrapper {
   }
   .header-container {
     background-size: 100% 100%;
-    min-height: 700px;
+    min-height: 520px;
   }
 
   .header-content-container {
