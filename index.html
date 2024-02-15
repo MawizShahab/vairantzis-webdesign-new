@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap js and jQuery-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS Styles-->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- jQuery-->
+    <script type="text/javascript" src="./custom.js"></script>
+
+    <title>Vairantzis</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <div class="main-container-wrapper">
+      <div class="main-container">
+        <header class="header-container extended-header">
+          <nav class="navbar navbar-expand-lg extended-nav">
+            <div class="header-logo">
+              <a href="./index.html"
+                ><img src="./images/header-logo.svg" alt="header-logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                id="navbarToggler"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div
+              class="collapse navbar-collapse categories-container"
+              id="navbarNav"
+            >
+              <nav class="categories">
+                <ul class="navbar-nav list-inline">
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a href="#informationSearch">Information search</a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a href="#whatWeDo">What we do</a>
+                    </div>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="link">
+                      <a href="#whoAreWe">Who are we</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <div class="registration-links-container">
+                <div class="registration-link login">
+                  <a href="#"
+                    ><img src="./images/icons/login.svg" alt="login" />
+                    <span>Login</span></a
+                  >
+                </div>
+                <div class="registration-link signup">
+                  <a href="#"><span>Sign Up</span></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="header-content-container">
+            <div class="header-content">
+              <div class="header-title"><p>What do you want to know?</p></div>
+              <div class="header-subtitle">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+            <div id="informationSearch" class="header-searchbox">
+              <a
+                href="#"
+                class="search-bar"
+                data-bs-toggle="modal"
+                data-bs-target="#popup"
+              >
+                <input type="search" name="" id="" placeholder="Search..." />
+                <button>Search</button>
+              </a>
+            </div>
+          </div>
+        </header>
+        <section id="whatWeDo" class="title-container">
+          <div class="main-title">
+            <div class="title-line left">
+              <img src="./images/title-left-line.png" alt="line" />
+            </div>
+            <div class="title"><p>How we help?</p></div>
+            <div class="title-line right">
+              <img src="./images/title-right-line.png" alt="line" />
+            </div>
+          </div>
+          <div class="short-note">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s
+            </p>
+          </div>
+        </section>
+        <section class="help-container-main-wrapper">
+          <div class="help-container-wrapper">
+            <div class="help-container left">
+              <div class="help">
+                <div class="question">
+                  <p>Want to ask a specific question ?</p>
+                </div>
+                <div class="answer">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <div class="help-seperator">
+                  <img src="./images/left-line.png" alt="line" />
+                </div>
+              </div>
+              <div class="help extend">
+                <div class="question">
+                  <p>This is another questions</p>
+                </div>
+                <div class="answer">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <div class="help-seperator">
+                  <img src="./images/left-line.png" alt="line" />
+                </div>
+              </div>
+              <div class="help">
+                <div class="question">
+                  <p>This is another questions</p>
+                </div>
+                <div class="answer">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <div class="help-seperator">
+                  <img src="./images/left-line.png" alt="line" />
+                </div>
+              </div>
+            </div>
+            <div class="help-hero">
+              <img src="./images/how-we-help.png" alt="help-hero" />
+            </div>
+            <div class="help-container right">
+              <div class="help extend">
+                <div class="question">
+                  <p>Want to ask a specific question ?</p>
+                </div>
+                <div class="answer">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <div class="help-seperator">
+                  <img src="./images/right-line.png" alt="line" />
+                </div>
+              </div>
+              <div class="help">
+                <div class="question">
+                  <p>This is another questions</p>
+                </div>
+                <div class="answer">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <div class="help-seperator">
+                  <img src="./images/right-line.png" alt="line" />
+                </div>
+              </div>
+              <div class="help extend">
+                <div class="question">
+                  <p>This is another questions</p>
+                </div>
+                <div class="answer">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <div class="help-seperator">
+                  <img src="./images/right-line.png" alt="line" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="whoAreWe" class="title-container">
+          <div class="main-title">
+            <div class="title-line left">
+              <img src="./images/title-left-line.png" alt="line" />
+            </div>
+            <div class="title"><p>Who are we?</p></div>
+            <div class="title-line right">
+              <img src="./images/title-right-line.png" alt="line" />
+            </div>
+          </div>
+          <div class="short-note">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s
+            </p>
+          </div>
+        </section>
+        <section class="additional-container-main-wrapper">
+          <div class="additional-container-wrapper">
+            <div class="additional-container desktop">
+              <div class="additional-hero">
+                <img src="./images/who-are-we-bg-2.png" alt="" />
+              </div>
+              <div class="additional-content-wrapper">
+                <div class="additional-content">
+                  <div class="content one">
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout. It is a long established fact that a reader
+                      will be distracted by the readable content of a page when
+                      looking at its layout.
+                    </p>
+                  </div>
+                  <div class="content two">
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout. It is a long established fact that a reader
+                      will be distracted by the readable content of a page when
+                      looking at its layout.
+                    </p>
+                  </div>
+                  <div class="content three">
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout. It is a long established fact that a reader
+                      will be distracted by the readable content of a page when
+                      looking at its layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="additional-container mobile" style="display: none">
+              <div class="comment secondary one">
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+              <div class="comment primary two">
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+              <div class="comment secondary three">
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer-container-wrapper">
+          <div class="footer-container">
+            <div class="footer-details">
+              <div class="footer-logo">
+                <img src="./images/footer-logo.svg" alt="logo" />
+              </div>
+              <div class="telephone">
+                <a href="tel:(+22)1234567900">
+                  <img src="./images/icons/telephone.svg" alt="telephone" />
+                  <span>(+22) 123 - 4567 - 900</span>
+                </a>
+              </div>
+              <div class="email">
+                <a href="mailto:support@doctrate.com">
+                  <img src="./images/icons/email.svg" alt="email" />
+                  <span>support@doctrate.com</span>
+                </a>
+              </div>
+              <div class="social-links">
+                <a href="#"
+                  ><img
+                    src="./images/icons/social-icons/Insta.svg"
+                    alt="instagram"
+                /></a>
+                <a href="#"
+                  ><img src="./images/icons/social-icons/Fb.svg" alt="facebook"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./images/icons/social-icons/Twiter.svg"
+                    alt="twitter"
+                /></a>
+              </div>
+            </div>
+            <div class="footer-content">
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Libero semper lorem
+                  vestibulum laoreet vel eget vel purus. Maecenas phasellus sem
+                  montes at amet. Nec aliquam volutpat.
+                </p>
+              </div>
+              <div class="footer-links-container">
+                <div class="footer-links">
+                  <div class="label"><p>Explore</p></div>
+                  <div class="links">
+                    <a href="#">Home</a> <a href="#">Services</a>
+                    <a href="#">About us</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">News</a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-links-container">
+                <div class="footer-links">
+                  <div class="label"><p>Utility Pages</p></div>
+                  <div class="links">
+                    <a href="#">Style Guide</a> <a href="#">Changelog</a>
+                    <a href="#">Licenses</a>
+                    <a href="#">Protected Page</a>
+                    <a href="#">404 Page</a>
+                  </div>
+                </div>
+              </div>
+              <div class="newsletter-container-wrapper">
+                <div class="newsletter-container">
+                  <div class="label"><p>Book an appontment</p></div>
+                  <div class="text">
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted
+                    </p>
+                  </div>
+                  <div class="newsletter">
+                    <input type="text" placeholder="your email address" />
+                    <button>Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright-container">
+              <div class="copyright">
+                <p>© Copyright Company 2024. All rights reserved.</p>
+              </div>
+              <div class="policies">
+                <a href="#">Privacy Policy</a>
+                <span class="seperator"
+                  ><img src="./images/icons/seperator.svg" alt="seperator"
+                /></span>
+                <a href="#">Terms & Conditions</a>
+                <span class="seperator"
+                  ><img src="./images/icons/seperator.svg" alt="seperator"
+                /></span>
+                <a href="#">Cookie Policy</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="popup"
+      tabindex="-1"
+      aria-labelledby="popupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog custom-modal modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Your modal content goes here -->
+            <div class="modal-title">
+              <p>Web Design</p>
+            </div>
+            <div class="rating-container">
+              <img src="./images/icons/rating-stars.svg" alt="rating-stars" />
+              <span>Rating</span>
+            </div>
+            <div class="subscription-container">
+              <div class="subscription">
+                <div class="subscription-label">
+                  <img
+                    src="./images/icons/dollar-circle.svg"
+                    alt="dollar-circle"
+                  />
+                  <span>Avg Safety</span>
+                </div>
+                <div class="price"><span>1200€</span></div>
+              </div>
+              <div class="subscription">
+                <div class="subscription-label">
+                  <img src="./images/icons/clock.svg" alt="clock" />
+                  <span>Hours</span>
+                </div>
+                <div class="price"><span>36h.</span></div>
+              </div>
+              <div class="subscription">
+                <div class="subscription-label">
+                  <img
+                    src="./images/icons/planet-earth.svg"
+                    alt="planet-earth"
+                  />
+                  <span>Environment</span>
+                </div>
+                <div class="price"><span>Mid</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="modal-footer-title">
+              <p>Sign Up To Find Out More!</p>
+            </div>
+            <button
+              type="button"
+              class="btn-modal md-p"
+              data-bs-dismiss="modal"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
